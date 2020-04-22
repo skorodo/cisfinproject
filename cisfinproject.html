@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="cisfinproject.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
@@ -59,7 +60,32 @@ body {
 </head>
 <body>
 <img class="logo" src="logo.svg">
+  <center><label for="Search">Search:<input id="mysearch" type="text" list="pop categories"/>
+  <button type="submit">Submit</button></center>
+  <datalist id="pop categories">
+  <option value="Home Improvement">
+  <option value="Restaurants">
+  <option value="Auto Repair">
+  <option value="General Contractor">
+  <option value="Furniture Stores">
+  <option value="Dry Cleaners">
+  <option value="Jewelry Stores">
+  <option value="Real Estate">
+  <option value="Clothing">
+  <option value="Lawyers">
+  </datalist>
 
+  <fieldset>
+  <h3>Better Business Bureau</h3>
+  <h2> Start With Trust</h2>
+  BBB's Vision: An ethical marketplace where buyers and sellers trust each other.
+  </fieldset>
+  <div class="div1">
+  <h3> File a Complaint</h3>
+  Need to file a complaint? BBB is here to help. We'll guide you through the process.
+  <br></br>
+  <center><button type="file a complaint">File a Complaint</button></center>
+</div>
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="#">Home Improvement</a>
@@ -91,6 +117,33 @@ function closeNav() {
   document.getElementById("main").style.marginLeft= "0";
 }
 </script>
-
+ <div class="div1">
+  <h3> File a Complaint</h3>
+  Need to file a complaint? BBB is here to help. We'll guide you through the process.
+  <br></br>
+  <center><button type="file a complaint">File a Complaint</button></center>
+</div>
+<p>
+<div class="div1">
+<h3>Leave a Review</h3>
+Write a review of a business and share your opinions with others.
+<br></br>
+<center><button type="start a review">Start a Review</button></center>
+</div>
+<div class="div2">
+<img src= "investigation.jpg">
+<br></br>
+BBB Investigation Update:Free Trial Offer Scams
+</div>
+<div class="div3">
+<img src="money.jpg">
+<br></br>
+Scam Alert: This Venmo Scam Sends You Money "by Accident"
+</div>
+<div class="div4">
+<img src="dogmask.jpg">
+<br></br>
+BBB Scam Alert: Puppy Scams take COVID Twist
+</div>
 </body>
 </html>
