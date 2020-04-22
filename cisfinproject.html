@@ -60,6 +60,9 @@ body {
 </head>
 <body>
 <img class="logo" src="logo.svg">
+  <div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Products & Services</span>
+</div>
   <center><label for="Search">Search:<input id="mysearch" type="text" list="pop categories"/>
   <button type="submit">Submit</button></center>
   <datalist id="pop categories">
@@ -99,13 +102,6 @@ body {
    <a href="#">Clothing</a>
    <a href="#">Lawyers</a>
 </div>
-
-<div id="main">
-  <h2>Better Business Bureau</h2>
-  <p>BBB's Vision: An ethical marketplace where buyers and sellers trust each other.</p>
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Products & Services</span>
-</div>
-
 <script>
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
