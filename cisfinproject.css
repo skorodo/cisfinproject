@@ -56,7 +56,7 @@ fieldset{
 .div2{
   position:absolute;
   right:40px;
-  top:370px;
+  top:450px;
   align-items:center;
   width:320px;
   padding:10px;
@@ -69,7 +69,7 @@ fieldset{
 .div3{
   position:absolute;
   right:40px;
-  top:540px;
+  top:750px;
   align-items:center;
   width:670px;
   padding:10px;
@@ -82,7 +82,7 @@ fieldset{
 .div4{
   position:absolute;
   right:40px;
-  top:970px;
+  top:1000px;
   align-items:center;
   width:320px;
   padding:10px;
