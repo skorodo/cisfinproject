@@ -1,100 +1,100 @@
 .logo {
-    width: 200px;
-    height: 164px;
+  width: 200px;
+  height: 164px;
 }
 
 .sidenav {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #111; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+height: 100%; /* 100% Full-height */
+width: 0; /* 0 width - change this with JavaScript */
+position: fixed; /* Stay in place */
+z-index: 1; /* Stay on top */
+top: 0; /* Stay at the top */
+left: 0;
+background-color: #111; /* Black*/
+overflow-x: hidden; /* Disable horizontal scroll */
+padding-top: 60px; /* Place content 60px from the top */
+transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
- .sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-  }
-  
-  .sidenav a:hover {
-  color: #f1f1f1;
-  }
-  
-     .sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-  }
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+transition: 0.3s;
+}
+
+.sidenav a:hover {
+color: #f1f1f1;
+}
+
+   .sidenav .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
 
 fieldset{
-  border-radius:20px;
-  border-color: #85C1E9;
-  margin:10px;
+border-radius:20px;
+border-color: #85C1E9;
+margin:10px;
 
 }
 
 .div1{
-  align-items: center;
-  width:400px;
-  padding:10px;
-  border:3px solid #7FB3D5;
-  margin:3px;
-  display:block;
+align-items: center;
+width:400px;
+padding:10px;
+border:3px solid #7FB3D5;
+margin:3px;
+display:block;
 }
 
 .div2{
-  position:absolute;
-  right:40px;
-  top:450px;
-  align-items:center;
-  width:320px;
-  padding:10px;
-  border: 3px solid #3EC339;
-  margin: 3px;
-  display:block;
+position:absolute;
+right:40px;
+top:450px;
+align-items:center;
+width:320px;
+padding:10px;
+border: 3px solid #3EC339;
+margin: 3px;
+display:block;
 
 }
 
 .div3{
-  position:absolute;
-  right:40px;
-  top:750px;
-  align-items:center;
-  width:670px;
-  padding:10px;
-  border: 3px solid #3EC339;
-  margin: 3px;
-  display:block;
+position:absolute;
+right:40px;
+top:750px;
+align-items:center;
+width:670px;
+padding:10px;
+border: 3px solid #3EC339;
+margin: 3px;
+display:block;
 
 }
 
 .div4{
-  position:absolute;
-  right:40px;
-  top:1000px;
-  align-items:center;
-  width:320px;
-  padding:10px;
-  border: 3px solid #3EC339;
-  margin: 3px;
-  display:block;
+position:absolute;
+right:40px;
+top:1000px;
+align-items:center;
+width:320px;
+padding:10px;
+border: 3px solid #3EC339;
+margin: 3px;
+display:block;
 
 }
 
 
 
- a:link{color:blue;} /*this is the original link, before clicking*/
- a:visited{color:orange;} /*once its been clicked on*/
- a:hover{color:black;} /*when you move the mouse over the link*/
- a:active{color:green;} /* when you physically click on the link*/
+a:link{color:blue;} /*this is the original link, before clicking*/
+a:visited{color:orange;} /*once its been clicked on*/
+a:hover{color:black;} /*when you move the mouse over the link*/
+a:active{color:green;} /* when you physically click on the link*/
