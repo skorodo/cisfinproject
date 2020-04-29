@@ -92,7 +92,13 @@ display:block;
 
 }
 
-
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: blue;
+  font-size: 30px;
+}
 
 a:link{color:blue;} /*this is the original link, before clicking*/
 a:visited{color:orange;} /*once its been clicked on*/
