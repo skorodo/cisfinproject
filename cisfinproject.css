@@ -100,7 +100,7 @@ display:block;
   font-size: 30px;
 }
 
-a:link{color:blue;} /*this is the original link, before clicking*/
+a:link{color:white;} /*this is the original link, before clicking*/
 a:visited{color:orange;} /*once its been clicked on*/
 a:hover{color:black;} /*when you move the mouse over the link*/
 a:active{color:green;} /* when you physically click on the link*/
