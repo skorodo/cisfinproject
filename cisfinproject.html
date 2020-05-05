@@ -90,8 +90,8 @@ body {
   <h3 style="position:relative;top:-300px;color:#2FD0CF ">Better Business Bureau</h3>
   <h2 style="position:relative;top:-300px;color:#2FD0CF "> Start With Trust</h2>
   <h4 style="position:relative;top:-300px;color:#2FD0CF ">BBB's Vision: An ethical marketplace where buyers and sellers trust each other.</h4>
-  <center style="position:relative; top:-150px;"><button onclick = "prev()"> Prev </button>
-  <button onclick = "next()"> Next </button></center>
+  <center style="position:relative; top:-150px;"><button onclick = "prev()"> < </button>
+  <button onclick = "next()"> > </button></center>
   <div class="div1">
   <h3> File a Complaint</h3>
   Need to file a complaint? BBB is here to help. We'll guide you through the process.
@@ -171,9 +171,21 @@ Write a review of a business and share your opinions with others.
   </textarea>
   <br>
   <!-- this page is all about forms-->
-  <input type="submit" value="Press">
-  <input type="reset" value= "Start Over">
+  <button id="submit">Submit</button>
+  <button id="start over">Start Over</button>
   </form>
+    <script>
+  var x = document.getElementById("submit");
+  x.addEventListener("click", myFunction);
+  function myFunction(){
+    alert("This form was submitted");
+  }
+  var y = document.getElementById("start over");
+  y. addEventListener("click",otherFunction);
+  function otherFunction(){
+    alert("You can now start the form over");
+  }
+  </script>
 <div class="div2">
 <img src= "investigation.jpg" >
 <br></br>
