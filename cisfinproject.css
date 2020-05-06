@@ -44,6 +44,60 @@ margin:10px;
 
 }
 
+.container {
+    justify-content:center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 80px 200px;
+    grid-gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .first, .third {
+    box-sizing: border-box;
+    padding: 10px;
+    width:500px;
+    height: 350px;
+    border: 5px solid #7FB3D5;
+    margin:3px;
+    
+  }
+  .second {
+    box-sizing: border-box;
+    padding: 10px;
+    width:400px;
+    height: 350px;
+    border: 5px solid #7FB3D5;
+    margin:3px;
+    
+  }
+  .container2 {
+    justify-content:center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 80px 200px;
+    grid-gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .fourth, .fifth {
+    box-sizing: border-box;
+    padding: 10px;
+    width:475px;
+    height: 200px;
+    border: 5px solid #7FB3D5;
+    margin:3px;
+    
+  }
+  .sixth {
+    box-sizing: border-box;
+    padding: 10px;
+    width:450px;
+    height: 580px;
+    border: 5px solid #7FB3D5;
+    margin:3px;
+    
+  }
 .div1{
 align-items: center;
 width:400px;
@@ -53,44 +107,25 @@ margin:3px;
 display:block;
 }
 
-.div2{
-position:absolute;
-right:40px;
-top:550px;
-align-items:center;
-width:320px;
-padding:10px;
-border: 3px solid #3EC339;
-margin: 3px;
-display:block;
-
-}
-
-.div3{
-position:absolute;
-right:40px;
-top:850px;
-align-items:center;
-width:320px;
-padding:10px;
-border: 3px solid #3EC339;
-margin: 3px;
-display:block;
-
-}
-
-.div4{
-position:absolute;
-right:40px;
-top:1100px;
-align-items:center;
-width:320px;
-padding:10px;
-border: 3px solid #3EC339;
-margin: 3px;
-display:block;
-
-}
+#wrapper {
+    width:700px;
+    clear:both;
+  }
+  #first {
+    background-color:red;
+    width:200px;
+    float:left;
+  }
+  #second {
+    background-color:blue;
+    width:300px;
+    float:left;
+  }
+  #third {
+    background-color:#bada55;
+    width:200px;
+    float:left;
+  }
 
 .header {
   padding: 60px;
@@ -106,7 +141,7 @@ a:hover{color:black;} /*when you move the mouse over the link*/
 a:active{color:green;} /* when you physically click on the link*/
 
 wrapper {
-    background: #1d33a1;
+    background: #ffffff;
     overflow: auto;
 }
 
@@ -120,14 +155,7 @@ wrapper {
 .footer {
     font-size: 0.85rem;
     padding: 20px 0;
-    position: relative;
     line-height: 1.6;
-    left:0;
-    bottom: 0;
-    width:100%;
-    background-color:#1d33a1;
-    color:white;
-    text-align: center;
 }
 
 .footer__text,
@@ -196,7 +224,7 @@ i.fas, i.fab, i.far, i.fal a{
     justify-content: center;
     align-items: center;
     transition: 0.4s;
-    font-size: 12px;
+    font-size: 18px;
     text-decoration: none;
  }
  i.fas, i.fab, i.far, i.fal{
