@@ -106,7 +106,7 @@ a:hover{color:black;} /*when you move the mouse over the link*/
 a:active{color:green;} /* when you physically click on the link*/
 
 wrapper {
-    background: #ffffff;
+    background: #1d33a1;
     overflow: auto;
 }
 
@@ -120,7 +120,14 @@ wrapper {
 .footer {
     font-size: 0.85rem;
     padding: 20px 0;
+    position: relative;
     line-height: 1.6;
+    left:0;
+    bottom: 0;
+    width:100%;
+    background-color:#1d33a1;
+    color:white;
+    text-align: center;
 }
 
 .footer__text,
