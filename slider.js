@@ -1,7 +1,7 @@
 var images = [
-  'business.jpg',
-  'trust.jpg',
-  'growth.jpg'
+  'business1.jpg',
+  'trust1.jpg',
+  'growth1.jpg'
 
 ];
 
