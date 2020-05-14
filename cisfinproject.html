@@ -62,12 +62,7 @@ body {
   <div class="header">
 <img class="logo" src="logo.svg">
   </div>
-  <script src = "slider.js">
-  </script>
-  <div class="container3">
-  <img id="slider" src="business.jpg" style="width:100%; height:350px;">
-  <div class="text-block1">
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Products & Services</span>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Products & Services</span>
     <span class="searchbar"> 
       <label for="Search">Search:<input id="mysearch" type="text" list="pop categories"/>
       <button type="submit">Submit</button>
@@ -85,12 +80,11 @@ body {
     <option value="Lawyers">
     </datalist>
     </div>
-  </div>
-  <span class="text-block">
-    <h3 style=color:#002db3 ">Better Business Bureau</h3>
-    <h2 style=color:#002db3 "> Start With Trust</h2>
-    <h4 style=color:#002db3 ">BBB's Vision: An ethical marketplace where buyers and sellers trust each other.</h4>
-  </span>
+  <script src = "slider.js">
+  </script>
+  <div class="container3">
+  <img id="slider" src="business.jpg" style="width:100%; height:350px;">
+   <div>
     <center style="position: relative;"><button onclick = "prev()"> < </button>
       <button onclick = "next()"> > </button>
     </center>
@@ -143,8 +137,8 @@ body {
   </div>
   <div class="reviewseg">
     <h3> Scroll Over to See What Others Think!</h3>
-    <img src="reviewss1.jpg.png" style="width: 320px; height: 275px;" onmouseover="this.src='reviewss2.jpg.png'" onmouseout="this.src='reviewss1.jpg.png'">
-    <img src="reviewss3.jpg.png" style="width: 320px; height: 275px; float:right;" onmouseover="this.src='reviewss4.jpg.png'" onmouseout="this.src='reviewss3.jpg.png'">
+    <img src="reviewss1.jpg.png" style="width: 320px; height: 275px;" onmouseover="this.src="reviewss2.jpg.png" onmouseout="this.src="reviewss1.jpg.png">
+    <img src="reviewss3.jpg.png" style="width: 320px; height: 275px; float:right;" onmouseover="this.src="reviewss4.jpg.png" onmouseout="this.src='reviewss3.jpg.png">
   </div>
 </div>
 <div id="mySidenav" class="sidenav">
